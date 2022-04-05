@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AutoFixture.AutoMoq.AutoSetup</id>
+    <version>1.0.0.0</version>
+    <title>AutoFixture with Auto Mocking using Moq and Auto Setup the calls</title>
+    <authors>Mark Struik</authors>
+    <owners>Mark Struik</owners>
+	<dependencies>
+		<dependency id="AutoFixture" version="3.19.2" />
+		<dependency id="AutoFixture.AutoMoq" version="3.19.2" />
+		<dependency id="AutoFixture.NUnit2" version="3.19.2" />
+		<dependency id="Moq" version="4.2.1408.0717" />
+		<dependency id="NUnit" version="2.6.3" />
+	</dependencies>
+    <licenseUrl>https://github.com/MarkStruik/AutoFixture.AutoMoq.AutoSetup/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/MarkStruik/AutoFixture.AutoMoq.AutoSetup</projectUrl>
+    <summary>Extending AutoFixture.AutoMoq to automatically Setup all calls on a mocked interface or abstract class.</summary>
+	<description>Extending AutoFixture.AutoMoq to automatically Setup all calls on a mocked interface or abstract class.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>AutoFixture Moq NUnit AutoMoq AutoSetup</tags>
+  </metadata>
+  <files>
+        <file src="..\Lib\net40\AutoFixture.AutoMoq.AutoSetup.dll" target="Lib\net40" />
+        <file src="..\Lib\net40\AutoFixture.AutoMoq.AutoSetup.pdb" target="Lib\net40" />
+        <file src="..\Lib\net40\AutoFixture.AutoMoq.AutoSetup.XML" target="Lib\net40" />
+		<file src="..\Content\readme.txt" target="readme.txt" />
+    </files>
+</package>
